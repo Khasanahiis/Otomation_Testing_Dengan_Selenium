@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium UI Testing" parallel="false" verbose="1">
+
+    <test name="Setup Verification Tests">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.demo.SetupVerificationTest"/>
+        </classes>
+    </test>
+
+    <test name="Otomation Test - Sequential Execution">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.demo.LocatorStrategiesDemo"/>
+            <class name="com.praktikum.testing.otomation.test.demo.FormInteractionDemo"/>
+            <class name="com.praktikum.testing.otomation.test.demo.NavigationAndWindowDemo"/>
+            <class name="com.praktikum.testing.otomation.test.demo.JavaScriptExecutorDemo"/>
+            <class name="com.praktikum.testing.otomation.test.demo.WaitStrategiesDemo"/>
+            <class name="com.praktikum.testing.otomation.test.demo.AlertHandlingDemo"/>
+        </classes>
+    </test>
+
+    <test name="POM Demo Tests">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.demo.LoginTestWithPOM"/>
+        </classes>
+    </test>
+</suite>
