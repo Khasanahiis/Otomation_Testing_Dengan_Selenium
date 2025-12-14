@@ -24,4 +24,41 @@
             <class name="com.praktikum.testing.otomation.test.demo.LoginTestWithPOM"/>
         </classes>
     </test>
+
+    <test name="User Registration Tests - 8 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.DemoWebShopRegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="User Login Tests - 8 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.UserLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Search Tests - 6 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.ProductSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Shopping Cart Tests - 10 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.ShoppingCartTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Details Tests - 5 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.ProductDetailsTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Process Tests - 3 Test Cases">
+        <classes>
+            <class name="com.praktikum.testing.otomation.test.CheckoutProcessTest"/>
+        </classes>
+    </test>
+
 </suite>
